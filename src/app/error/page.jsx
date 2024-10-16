@@ -11,7 +11,7 @@ const Page = () => {
           We are sorry. The page you are looking for is unknown or does not exist. Please check your request.
         </p>
         <a
-          href="http://localhost:3001"
+          href="http://localhost:3000"
           className="font-sans font-medium text-sm border rounded-md bg-[#4B6BFB] text-white w-[130px] h-10 flex justify-center items-center"
         >
           Back To Home

@@ -16,9 +16,9 @@ export const Footer = () => {
                     
                 </div>
                 <div className="text-customText leading-[34px]">
-                        <ul><button>Home</button></ul>
-                        <ul><button>Blog</button></ul>
-                        <ul><button>Contact</button></ul>
+                        <ul><a href="http://localhost:3000"><button>Home</button></a></ul>
+                        <ul><a href="http://localhost:3000/allBlog"><button>Blog</button></a></ul>
+                        <ul><a href="http://localhost:3000/contact"><button>Contact</button></a></ul>
                 </div>
                 <div className="w-[16px] h-[16px] flex gap-[20px]">
                     <img src="./Facebook.png" alt="" />

@@ -11,17 +11,17 @@ export const Header = () => {
           <nav className="flex justify-between gap-10">
             <ul>
               <li>
-                <Link href="http://localhost:3001">Home</Link>
+                <Link href="http://localhost:3000">Home</Link>
               </li>
             </ul>
             <ul>
               <li>
-                <Link href="http://localhost:3001/allBlog">Blog</Link>
+                <Link href="http://localhost:3000/allBlog">Blog</Link>
               </li>
             </ul>
             <ul>
               <li>
-                <Link href="http://localhost:3001/contact">Contact</Link>
+                <Link href="http://localhost:3000/contact">Contact</Link>
               </li>
             </ul>
           </nav>
