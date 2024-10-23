@@ -1,6 +1,6 @@
 "use client";
 
-const Page = () => {
+const NotFoundPage = () => {
   return (
     <div className="w-[642px] h-[208px] flex justify-between gap-9 items-center mx-auto my-[190px]">
       <div className="text-[72px] leading-[72px] font-sans">404</div>
@@ -21,4 +21,4 @@ const Page = () => {
   );
 };
 
-export default Page;
+export default NotFoundPage;

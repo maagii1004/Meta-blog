@@ -1,8 +1,12 @@
 "use client";
 
-import { HomeBlogCard } from "./HomeBlogCard";
+import { AllBlogCard } from "./AllBlogCard";
 
-export const HomeB = () => {
+export const HomeB = async () => {
+    const response = await fetch("https://next-mock-api.vercel.app/api/posts?size=9");
+    const data = await response.json();
+    const { items: posts } = data;
+
     return (
         <div className="flex justify-center max-w-[1216px]">
             <section className="mt-40 ">
@@ -17,20 +21,13 @@ export const HomeB = () => {
                         <button className="hover:text-[#D4A373] text-[12px]">Branding</button>
                     </div>
                     <div>
-                        <button className="hover:text-[#D4A373] text-[12px]">View All</button>
+                        <a href="http://localhost:3000/allBlog"><button className="hover:text-[#D4A373] text-[12px]">View All</button></a>
                     </div>
-                    
                 </div>
                 <div className="grid grid-cols-3 gap-6 mt-6 ">
-                    <HomeBlogCard/>
-                    <HomeBlogCard/>
-                    <HomeBlogCard/>
-                    <HomeBlogCard/>
-                    <HomeBlogCard/>
-                    <HomeBlogCard/>
-                    <HomeBlogCard/>
-                    <HomeBlogCard/>
-                    <HomeBlogCard/>
+                    {posts.map((post) => (
+                        <AllBlogCard key={post.id} post={post} />
+                    ))}
                 </div>
                 <div className="flex justify-center">
                     <button className="border-[1px] border-x-gray-400 rounded-[5px] text-[#696A75] font-sans font-[500] w-22 h-9 p-5 items-center text-center flex justify-center my-9">Load More</button>

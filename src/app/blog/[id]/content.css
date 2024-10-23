@@ -1,0 +1,250 @@
+.content h1,
+.content h2,
+.content h3,
+.content h4,
+.content h5,
+.content h6 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: 600;
+  line-height: 1.2;
+  font-weight: 700;
+  color: #333;
+}
+
+.content a:hover {
+  color: #07d;
+}
+
+.content b,
+.content strong {
+  font-weight: 600;
+}
+
+.content p,
+.content ul {
+  font-size: 1em;
+  line-height: 1.6;
+  margin: 0 0 20px;
+  color: #333;
+}
+
+.content p:after {
+  clear: both;
+  display: block;
+  content: "";
+}
+
+.content a {
+  color: #07d;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.content figure.image {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+
+.content figure.image figcaption {
+  background-color: #dbe1ea;
+  font-size: 0.75em;
+  color: #454d62;
+  text-align: center;
+  font-style: italic;
+  line-height: 1.6;
+  padding: 4px;
+  position: absolute;
+  bottom: 0;
+  box-sizing: border-box;
+  left: 0;
+  right: 0;
+  width: 100%;
+}
+
+.content blockquote {
+  border-left: 5px solid #07d;
+  background: #f1f1f1;
+  padding: 20px;
+}
+
+.content blockquote p {
+  color: #333;
+  font-size: 1em;
+  font-style: italic;
+  line-height: 28px;
+}
+
+.content o {
+  color: red;
+}
+
+.content li {
+  font-size: 1em;
+  line-height: 1.4;
+  margin-bottom: 8px;
+}
+
+.content h1 {
+  font-size: 2.5em;
+}
+
+.content h2 {
+  font-size: 2.25em;
+}
+
+.content h3 {
+  font-size: 2em;
+}
+
+.content h4 {
+  font-size: 1.75em;
+}
+
+.content h5 {
+  font-size: 1.5em;
+}
+
+.content h6 {
+  font-size: 1.25em;
+}
+
+.content img {
+  border-color: #007bff;
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+.content table {
+  width: 100%;
+  border-color: rgba(0, 0, 0, 0.125);
+  background-color: #fff;
+  margin: 20px 0;
+  border-collapse: collapse;
+  max-width: 100% !important;
+}
+
+.content table,
+.content td,
+.content th {
+  border: 1px solid #363636;
+  padding: 8px;
+}
+
+.content td p,
+.content th p {
+  margin: 0;
+}
+
+.content caption {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+  padding: 10px;
+  font-weight: 700;
+}
+
+.content tr:hover {
+  background-color: #eee;
+  transition: 0.2s;
+}
+
+.content th {
+  background-color: #1e88e5;
+  color: #fff;
+}
+
+.content tr:nth-child(odd) {
+  background-color: #f6f7fa;
+}
+
+.content hr {
+  border: 0;
+  border-top: 2px solid #333;
+  opacity: 0.1;
+}
+
+.content ul {
+  display: block;
+  list-style-type: disc;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 1em;
+  -webkit-margin-start: 0;
+  -webkit-margin-end: 0;
+  -webkit-padding-start: 40px;
+}
+
+.content ul li {
+  display: list-item;
+}
+
+.content .videoWrapper {
+  padding-bottom: 56.25%;
+}
+
+.content .videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.content .embeddedContent {
+  width: 100%;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
+
+.content .embeddedContent iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.content .videoWrapper {
+  width: 100%;
+  position: relative;
+  padding-bottom: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.content .videoWrapper--portrait {
+  height: auto;
+  padding-bottom: auto;
+  text-align: center;
+}
+
+.content .videoWrapper--portrait iframe {
+  display: inline-block;
+}
+
+.content .videoWrapper--horizontal {
+  padding-bottom: 56.25%;
+}
+
+.content .videoWrapper--horizontal iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.content .videoWrapper__top {
+  width: 100%;
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+}
